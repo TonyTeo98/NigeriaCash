@@ -1,0 +1,6 @@
+[rewrite_local]
+
+^https:\/\/compliance\.chippercash\.com\/face-verification\/selfie_challenge$ url script-request-body https://raw.githubusercontent.com/TonyTeo98/NigeriaCash/main/Chipper/replace_selfie.js
+
+[mitm]
+hostname = compliance.chippercash.com,auth.chippercash.com
